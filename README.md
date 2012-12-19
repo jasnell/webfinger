@@ -4,14 +4,14 @@ A simple Ruby WebFinger JRD implementation
 
 Getting Started:
 ```
-gem install webfinger
+gem install wfjrd
 ```
 
 Or building from source...
 ```
 git clone git://github.com/jasnell/webfinger.git
 gem build webfinger.gemspec
-gem install webfinger-0.0.1.gem
+gem install webfinger-jrd-0.0.1.gem
 ```
 
 Note: The webfinger gem has currently only been tested on Ruby 1.9.3
@@ -25,7 +25,7 @@ Example:
 # License: Apache v2.0                       #
 ##############################################
 
-require 'webfinger'
+require 'wfjrd'
 include WebFinger
 
 STDOUT << jrd { 
