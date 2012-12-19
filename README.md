@@ -4,7 +4,7 @@ A simple Ruby WebFinger JRD implementation
 
 Getting Started:
 ```
-gem install wfjrd
+gem install webfinger-jrd
 ```
 
 Or building from source...
