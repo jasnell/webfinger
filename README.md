@@ -40,17 +40,11 @@ STDOUT << jrd {
     property 'http://example.org', 'foo'
   }
   link {
-    rel 'foo'
-    href 'http://example.org'
-    type 'application/json'
-  }
-  
-  link {
-    rel 'foo'
-    href 'http://example.org'
-    type 'application/json'
+    rel  'avatar'
+    href 'http://example.org/i.jpg'
+    type 'image/jpeg'
     titles { 
-      lang 'en-*', 'brat'
+      lang    'en-US', 'foo'
       default 'foo'
     }
   }
