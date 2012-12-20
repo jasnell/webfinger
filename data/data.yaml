@@ -1,0 +1,42 @@
+- John_Doe:
+  Aliases:
+    - acct:john@example.net
+    - mailto:john@example.net
+    - https://example.net/~john
+    - http://example.net/~john
+  Properties:
+    http://example.org/full-name: John Doe
+    http://example.org/organization: Example, Inc.
+  Links:
+    - 
+      rel: avatar
+      href: https://example.net/~john/john.jpg
+      type: image/jpeg
+    - 
+      rel: profile
+      href: https://example.net/~john
+      type: text/html
+    - 
+      rel: profile
+      href: https://example.net/api/john.json
+      type: application/json
+    - 
+      rel: oauth2-authorize
+      href: https://oauth2.example.net/authorize
+      secure: true
+    -
+      rel: oauth2-token
+      href: https://oauth2.example.net/token
+      secure: true
+    -
+      rel: oauth-initiate
+      href: https://oauth1.example.net/initiate
+      secure: true
+    -
+      rel: oauth-authorize
+      href: https://oauth1.example.net/authorize
+      secure: true
+    -
+      rel: oauth-token
+      href: https://oauth1.example.net/token
+      secure: true
