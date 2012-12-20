@@ -35,13 +35,11 @@ def generate_jrd user, res, secure
         type item['type'] if item['type']
       } unless (!secure && item['secure'])
     end
-    if user['Properties'] 
-      properties {
-        user['Properties'].each do |key,val|
-          property key, val
-        end
-      }
-    end
+    properties {
+      user['Properties'].each do |key,val|
+        property key, val
+      end
+    } if user['Properties'] 
   }
 end
 
